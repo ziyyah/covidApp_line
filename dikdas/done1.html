@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- Your app title -->
+    <title>CovidApp</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css" />
+    <link rel="stylesheet" href="css/framework7-icons.css" />
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page" style="background-color: #f3f3f3">
+          <div class="popup popup-about">
+            <div class="block">
+              <p>
+                <a class="link popup-close text-color-orange" href="#">Close</a>
+              </p>
+              <h2>Kelompok line</h2>
+              <!-- Close Popup -->
+              <p>1. Fauziyyah - 2013000017</p>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <!-- Static Navbar -->
+            <div class="navbar no-shadow">
+              <div
+                class="navbar-bg"
+                style="background-color: transparent"
+              ></div>
+              <div class="navbar-inner">
+                <div class="title text-color-white font-bolds">Covid App</div>
+                <div class="right block">
+                  <a
+                    href="#"
+                    class="text-color-white popup-open"
+                    data-popup=".popup-about"
+                  >
+                    <i class="f7-icons">info_circle_fill</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Banner & Header -->
+            <img src="img/cover.svg" class="banner" alt="" />
+            <div class="block header" style="margin-top: -190px">
+              <h1 class="text-color-white font-bolds">Are you feeling sick?</h1>
+              <p
+                style="font-size: 18px; margin-top: -15px"
+                class="text-color-white font-regular"
+              >
+                If you feel sick with any of covid-19 symptoms <br />
+                please call or SMS us immediately for help.
+              </p>
+              <div
+                class="bg-color-white elevation-1"
+                style="border-radius: 20px; height: 125px"
+              >
+                <br />
+                <center>
+                  <div class="row margin-half">
+                    <div class="col text-color-orange">
+                      <i class="f7-icons iconz">telephone</i>
+                      <h3 class="font-bolds texts">CALL</h3>
+                    </div>
+                    <div class="col text-color-orange">
+                      <i class="f7-icons iconz">chat_bubble_text</i>
+                      <h3 class="font-bolds texts">SMS</h3>
+                    </div>
+                    <div class="col text-color-orange">
+                      <i class="f7-icons iconz">map</i>
+                      <h3 class="font-bolds texts">HOSPITAL</h3>
+                    </div>
+                  </div>
+                </center>
+              </div>
+            </div>
+
+            <!-- Content -->
+
+            <div class="block">
+              <h2 class="text-color-orange font-bolds">Statistics</h2>
+              <div class="row">
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-deeporange"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                        1000
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Cases
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-red"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                        200
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Deaths
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-green"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                        350
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Recovered
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-blue"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                        450
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Active
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block">
+              <div class="card card-expandable">
+                <div class="card-content">
+                  <div class="card-bgr" style="height: 300px">
+                    <div class="card-header text-color-white display-block">
+                      Covid19
+                      <br />
+                      <small style="opacity: 0.7">Symptoms</small>
+                    </div>
+                    <a
+                      href="#"
+                      class="link card-close card-opened-fade-in color-white"
+                      style="position: absolute; right: 15px; top: 15px"
+                    >
+                      <i class="icon f7-icons">xmark_circle_fill</i>
+                    </a>
+                  </div>
+                  <div class="card-content-padding">
+                    <h3>Demam</h3>
+                    <p>lorem ipsum...</p>
+                    <br />
+                    <h3>Batuk</h3>
+                    <p>lorem ipsum...</p>
+                    <br />
+                    <h3>Sulit Bernafas</h3>
+                    <p>lorem ipsum...</p>
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block">
+              <h2 class="font-bolds text-color-orange">Prevention</h2>
+
+              <div class="card">
+                <div class="card-content">
+                  <div class="list media-list">
+                    <ul>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/mask.svg" width="44" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">Wear a Mask</div>
+                          </div>
+                          <div class="item-subtitle">wear a mask when going out of the house</div>
+                        </div>
+                      </li>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/wash.svg" width="44" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">Wash your Hand</div>
+                          </div>
+                          <div class="item-subtitle">wash hands before handling the face area</div>
+                        </div>
+                      </li>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/distance.svg" width="44" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">Social Distancing</div>
+                          </div>
+                          <div class="item-subtitle">keep your distance when in public places</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

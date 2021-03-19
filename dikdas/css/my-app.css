@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,300&display=swap");
+
+.font-light {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300 !important;
+}
+
+.font-regular {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400 !important;
+}
+
+.font-bolds {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700 !important;
+}
+
+.card-backdrop {
+  backdrop-filter: none !important;
+}
+
+/* A bit of demo styles */
+.demo-swiper .swiper-slide {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+}
+.demo-swiper .swiper-slide {
+  box-sizing: border-box;
+  /* border: 1px solid #ddd; */
+  background: #fff;
+}
+.demo-swiper {
+  margin: 0px 0 35px;
+  font-size: 18px;
+  /* height: 120px; */
+}
+.demo-swiper.demo-swiper-auto .swiper-slide {
+  width: 85%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+  width: 70%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+  width: 30%;
+}
+
+.card-bgr {
+  background-image: url(../img/card.svg);
+  background-size: contain;
+}
+
+/* css mobile view only */
+@media only screen and (max-width: 700px) {
+  .banner {
+    margin-top: -60px;
+    height: 350px;
+  }
+
+  .header {
+    margin-top: -230px !important;
+  }
+}
+/* css desktop view only */
+@media only screen and (min-width: 700px) {
+  .framework7-root,
+  body,
+  html {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 78%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ededed;
+  }
+
+  .banner {
+    margin-top: -170px;
+    width: 100% !important;
+  }
+
+  .header {
+    margin-top: -180px !important;
+  }
+
+  .iconz {
+    font-size: 35px;
+  }
+}
